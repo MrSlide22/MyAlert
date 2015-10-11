@@ -1,0 +1,42 @@
+.ma-bg{
+	background-color: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 90;
+}
+
+
+
+.ma-panel{
+	background-color: #fff;
+	position: fixed;
+	width: 30%;
+	margin: auto;
+	z-index: 100;
+	font-family: sans-serif;
+}
+
+@media(max-width: 768px){
+	.ma-panel{
+		width: 90%;
+	}
+}
+
+.ma-title{
+	background-color: #eee;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.ma-msg{
+	padding: 20px;
+}
+
+.ma-footer{
+	text-align: right;
+	padding: 10px;
+	border-top: 1px solid #eee;
+}
